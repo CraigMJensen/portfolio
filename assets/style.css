@@ -1,0 +1,95 @@
+:root {
+    --primary-color: rgb(213, 218, 143);
+    --secondary-color: rgb(111, 118, 184);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--secondary-color);
+}
+
+header, footer {
+    padding: 20px 35px;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    display: inline;
+    color: var(--secondary-color);
+}
+
+header a {
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+header nav {
+    float: right;
+    margin: 7px 0;
+}
+
+header ul {
+    list-style-type: none;
+}
+header nav ul li {
+    display: inline;
+    margin: 0 30px;
+    font-size: 22px;
+}
+
+footer {
+    font-size: 22px;
+    width: 100%;
+    padding: 40px 35px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+    color: var(--secondary-color);
+}
+
+#about {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px 0;
+}
+
+#projects {
+    display: block;
+}
+
+#projects h2 {
+    display: block;
+    text-align: center;
+}
+
+.project-container {
+    display: inline-flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project-link2, .project-link3, .project-link4 {
+    width: 400px;
+    height: 400px;
+    background-color: var(--primary-color);
+    display: inline;
+    align-items: center;
+    margin: 20px;
+}
+
+.project-link1 {
+    width: 600px;
+    height: 600px;
+    background-color: var(--primary-color);
+    flex-basis: 85%;
+}
