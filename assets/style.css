@@ -120,30 +120,26 @@ footer {
   font-style: italic;
 }
 
-.about-text p {
-}
-
 #projects {
   display: block;
   margin-top: 0;
 }
 
 #projects h2 {
-  display: block;
   text-align: center;
   height: 3em;
   background-color: var(--primary-color);
-  margin: 2em 25em;
   padding: 0.65em;
+  margin: 2rem 15rem;
   color: var(--secondary-color);
   font-size: 30px;
   position: relative;
   outline: 8px double var(--secondary-color);
   outline-offset: -18px;
-  border-bottom-right-radius: 70%;
-  border-top-right-radius: 70%;
-  border-bottom-left-radius: 70%;
-  border-top-left-radius: 70%;
+  border-bottom-right-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-top-left-radius: 30px;
 }
 
 .project-container {
@@ -156,7 +152,7 @@ footer {
 .project-link1 {
   height: 30vw;
   background-image: url(/img/run-buddy.png);
-  background-size: cover;
+  background-size: 110rem;
   background-position: center;
   flex-basis: 85%;
   position: relative;
@@ -188,10 +184,6 @@ footer {
   opacity: 0;
   visibility: hidden;
 }
-
-/* .hover-text img {
-  width: 1em;
-} */
 
 .project-link1:hover {
   cursor: pointer;
