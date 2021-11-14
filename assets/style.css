@@ -27,6 +27,8 @@ header h1 {
   font-size: 36px;
   display: inline;
   color: var(--secondary-color);
+  text-shadow: -1px 1px 5px var(--secondary-color),
+    1px -1px 5px var(--secondary-color);
 }
 
 header a {
@@ -42,10 +44,21 @@ header nav {
 header ul {
   list-style-type: none;
 }
+
 header nav ul li {
   display: inline;
   margin: 0 30px;
   font-size: 22px;
+}
+
+.list-items {
+  position: relative;
+}
+
+.list-items a:hover,
+footer p:hover {
+  color: white;
+  text-shadow: 5px 5px 5px white, 5px -5px 5px white;
 }
 
 footer {
@@ -85,6 +98,8 @@ footer {
 #projects h2 {
   display: block;
   text-align: center;
+  color: var(--primary-color);
+  font-size: 30px;
 }
 
 .project-container {
