@@ -135,6 +135,7 @@ footer {
 .about-text p {
   width: 450px;
   height: 450px;
+  margin-top: 10px;
   overflow: scroll;
   transition: 200ms ease-in-out;
 }
