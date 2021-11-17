@@ -84,14 +84,9 @@ header nav ul li {
 
 .h-f-text:hover {
   color: var(--clr-text);
-<<<<<<< HEAD
-  text-shadow: 3px 3px 3px var(--clr-background),
-    3px -3px 3px var(--clr-background);
-=======
   text-shadow: 5px 5px 0px var(--clr-shadow), 4px 4px 0px var(--clr-shadow),
     3px 3px 0px var(--clr-shadow), 2px 2px 0px var(--clr-shadow),
     1px 1px 0px var(--clr-shadow);
->>>>>>> b942194c6bddc1d1b966346da784dc3d8ed5c6fe
 }
 
 .at-sign {
