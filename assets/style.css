@@ -287,6 +287,11 @@ footer {
     padding: 0;
     align-items: center;
   }
+  .h-f-text {
+    text-shadow: 3px 2px 0px var(--clr-shadow),
+      2.5px 1.5px 0px var(--clr-shadow), 2px 1px 0px var(--clr-shadow),
+      1.5px 0.5px 0px var(--clr-shadow), 1px 0px 0px var(--clr-shadow);
+  }
   h2.h-f-text {
     text-align: center;
   }
@@ -305,6 +310,11 @@ footer {
     width: 100%;
     padding: 0;
     align-items: center;
+  }
+  .h-f-text {
+    text-shadow: 3px 2px 0px var(--clr-shadow),
+      2.5px 1.5px 0px var(--clr-shadow), 2px 1px 0px var(--clr-shadow),
+      1.5px 0.5px 0px var(--clr-shadow), 1px 0px 0px var(--clr-shadow);
   }
   section.small-projects {
     margin: 0;
