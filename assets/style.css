@@ -253,7 +253,7 @@ footer {
   transition: 300ms ease-in-out;
   justify-content: center;
   align-items: center;
-  font-size: 2vw;
+  font-size: 30px;
   font-weight: bolder;
   font-family: sans-serif;
   opacity: 0;
@@ -320,6 +320,7 @@ footer {
     margin: 0;
   }
   #query-style {
+    width: auto;
     visibility: visible;
     opacity: 0.9;
     background-color: var(--clr-main);
