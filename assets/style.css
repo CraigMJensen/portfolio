@@ -335,7 +335,6 @@ footer {
     align-items: center;
     width: 310px;
     height: 280px;
-    transition: 300ms ease-in-out;
     transform: translateX(15px) translateY(30px);
     font-size: 30px;
     font-weight: bolder;
@@ -349,10 +348,8 @@ footer {
     flex-basis: auto;
     justify-content: center;
     align-items: center;
-    text-align: center;
     width: 250px;
     height: 280px;
-    transition: 300ms ease-in-out;
     transform: translateX(15px) translateY(30px);
     font-size: 30px;
     font-weight: bolder;
