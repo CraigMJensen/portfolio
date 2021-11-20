@@ -18,6 +18,8 @@ body {
   margin: 0 auto;
 }
 
+/* Header Section */
+
 #header-sticky {
   position: fixed;
   display: flex;
@@ -57,6 +59,8 @@ body {
   font-size: 22px;
 }
 
+/* Text Style Section */
+
 #main-about,
 #projects h2,
 header,
@@ -95,21 +99,7 @@ footer {
   bottom: 5px;
 }
 
-footer {
-  font-size: 28px;
-  width: 100%;
-  height: 3.25em;
-  display: flex;
-  border-top-right-radius: 75px;
-  border-top-left-radius: 75px;
-}
-
-#contact p {
-  display: inline-block;
-  width: 50%;
-  text-align: center;
-  height: 60px;
-}
+/* Main Section */
 
 #main-about {
   display: flex;
@@ -145,6 +135,8 @@ footer {
   width: 100%;
   text-align: center;
 }
+
+/* Project Section */
 
 .project-container {
   display: block;
@@ -230,6 +222,26 @@ footer {
   font-size: 2em;
 }
 
+/* Footer Section */
+
+footer {
+  font-size: 28px;
+  width: 100%;
+  height: 3.25em;
+  display: flex;
+  border-top-right-radius: 75px;
+  border-top-left-radius: 75px;
+}
+
+#contact p {
+  display: inline-block;
+  width: 50%;
+  text-align: center;
+  height: 60px;
+}
+
+/* Hover Styling */
+
 .hover-text1 {
   display: flex;
   width: 100%;
@@ -274,6 +286,8 @@ footer {
   visibility: visible;
   opacity: 0.7;
 }
+
+/* Media Queries */
 
 @media screen and (max-width: 768px) {
   #main-about {
