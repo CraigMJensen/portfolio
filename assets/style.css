@@ -170,7 +170,7 @@ footer {
   max-width: 775px;
   height: 400px;
   border-radius: 20px;
-  background-image: url(../img/run-buddy.png);
+  background-image: url(../img/tekSess.png);
   background-size: 80rem;
   background-position: center;
   outline: 10px double var(--clr-background);
@@ -189,7 +189,7 @@ footer {
 
 .project-link3 {
   border-radius: 20px;
-  background-image: url(../img/portfolio-screenshot.png);
+  background-image: url(../img/tech-blog.png);
   background-size: 240%;
   background-repeat: no-repeat;
   background-position: left;
@@ -197,7 +197,7 @@ footer {
 
 .project-link4 {
   border-radius: 20px;
-  background-image: url(../img/coming-soon-sign.png);
+  background-image: url(../img/run-buddy.png);
   background-size: contain;
 }
 
